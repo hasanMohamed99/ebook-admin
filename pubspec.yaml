@@ -1,0 +1,54 @@
+name: ebook_task_admin
+description: "Ebook Task Admin."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_bloc: ^8.1.3
+  # Code generator (mainly used with cubit and retrofit)
+  freezed: ^2.4.6
+  freezed_annotation: ^2.4.1
+  # Automatically generate code to and from json
+  json_serializable: ^6.7.1
+  json_annotation: ^4.8.1
+  # Dependency injection
+  get_it: ^7.6.4
+  # An SVG rendering
+  flutter_svg: ^2.0.9
+  # internationalized/localized messages, date and number formatting and parsing, bi-directional text
+  intl: ^0.18.1
+  # Flutter plugin for reading and writing simple key-value pairs locally.
+  shared_preferences: ^2.2.2
+  # For phone authentication
+  supabase_flutter: ^2.2.0
+  # Flutter plugin for selecting images from storage
+  image_picker: ^1.0.7
+  # A package that allows you to use a native file explorer to pick single or multiple absolute file paths, with extension filtering support.
+  file_picker: ^6.2.0
+  # A flutter package to let users easily add a dashed border around any widget.
+  dotted_border: ^2.1.0
+  # Flutter library to load and cache network images.
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  # A build system for Dart code generation and modular compilation.
+  build_runner: ^2.4.8
+  analyzer: ^6.4.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: Almarai
+      fonts:
+        - asset: assets/fonts/Almarai.ttf
