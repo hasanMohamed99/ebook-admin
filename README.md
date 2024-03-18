@@ -1,16 +1,3 @@
-# ebook_task_admin
+![android-chrome-192x192](https://github.com/hasanMohamed99/ebook-admin/assets/122566600/176f790b-d07c-4004-984d-a6b7713f5d05) # ebook_task_admin
 
 Ebook Task Admin.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
